@@ -1,0 +1,658 @@
+{
+  "url": "https://codespaces-react-main-l56h.onrender.com/",
+  "method": "GET",
+  "created_at": "2026-09-15T17:24:22.007149+00:00",
+  "resultado": {
+    "total_requests": 100,
+    "sucessos": 100,
+    "erros": 0,
+    "tempo_total_execucao": 5.19,
+    "rps": 19.26,
+    "media_ms": 34.01,
+    "desvio_padrao_ms": 8.21,
+    "apdex_score": 1.0,
+    "target_sla_ms": 500.0,
+    "p50": 32.8,
+    "p75": 35.82,
+    "p90": 40.87,
+    "p95": 55.28,
+    "p99": 63.05,
+    "status_codes": {
+      "200": 100
+    },
+    "erros_detalhados": {
+      "timeout": 0,
+      "connection_refused": 0,
+      "dns_failure": 0,
+      "ssl_error": 0,
+      "http_4xx": 0,
+      "http_5xx": 0,
+      "outros": 0
+    },
+    "series_tempo": [
+      {
+        "id": 1,
+        "time": 3.29,
+        "latency": 36.18,
+        "status": 200
+      },
+      {
+        "id": 16,
+        "time": 3.29,
+        "latency": 55.13,
+        "status": 200
+      },
+      {
+        "id": 61,
+        "time": 3.29,
+        "latency": 58.07,
+        "status": 200
+      },
+      {
+        "id": 46,
+        "time": 3.29,
+        "latency": 59.03,
+        "status": 200
+      },
+      {
+        "id": 76,
+        "time": 3.29,
+        "latency": 58.75,
+        "status": 200
+      },
+      {
+        "id": 31,
+        "time": 3.29,
+        "latency": 63.01,
+        "status": 200
+      },
+      {
+        "id": 91,
+        "time": 3.29,
+        "latency": 67.48,
+        "status": 200
+      },
+      {
+        "id": 77,
+        "time": 3.42,
+        "latency": 34.52,
+        "status": 200
+      },
+      {
+        "id": 17,
+        "time": 3.42,
+        "latency": 36.42,
+        "status": 200
+      },
+      {
+        "id": 32,
+        "time": 3.42,
+        "latency": 36.57,
+        "status": 200
+      },
+      {
+        "id": 92,
+        "time": 3.42,
+        "latency": 36.71,
+        "status": 200
+      },
+      {
+        "id": 2,
+        "time": 3.42,
+        "latency": 39.45,
+        "status": 200
+      },
+      {
+        "id": 62,
+        "time": 3.42,
+        "latency": 39.71,
+        "status": 200
+      },
+      {
+        "id": 47,
+        "time": 3.42,
+        "latency": 43.55,
+        "status": 200
+      },
+      {
+        "id": 3,
+        "time": 3.56,
+        "latency": 27.5,
+        "status": 200
+      },
+      {
+        "id": 33,
+        "time": 3.56,
+        "latency": 32.61,
+        "status": 200
+      },
+      {
+        "id": 63,
+        "time": 3.56,
+        "latency": 31.97,
+        "status": 200
+      },
+      {
+        "id": 93,
+        "time": 3.56,
+        "latency": 31.37,
+        "status": 200
+      },
+      {
+        "id": 18,
+        "time": 3.56,
+        "latency": 35.05,
+        "status": 200
+      },
+      {
+        "id": 78,
+        "time": 3.56,
+        "latency": 33.72,
+        "status": 200
+      },
+      {
+        "id": 48,
+        "time": 3.56,
+        "latency": 38.21,
+        "status": 200
+      },
+      {
+        "id": 94,
+        "time": 3.69,
+        "latency": 37.27,
+        "status": 200
+      },
+      {
+        "id": 79,
+        "time": 3.69,
+        "latency": 38.25,
+        "status": 200
+      },
+      {
+        "id": 19,
+        "time": 3.69,
+        "latency": 40.56,
+        "status": 200
+      },
+      {
+        "id": 34,
+        "time": 3.69,
+        "latency": 40.36,
+        "status": 200
+      },
+      {
+        "id": 4,
+        "time": 3.69,
+        "latency": 41.29,
+        "status": 200
+      },
+      {
+        "id": 49,
+        "time": 3.69,
+        "latency": 40.82,
+        "status": 200
+      },
+      {
+        "id": 64,
+        "time": 3.69,
+        "latency": 43.66,
+        "status": 200
+      },
+      {
+        "id": 95,
+        "time": 3.82,
+        "latency": 30.06,
+        "status": 200
+      },
+      {
+        "id": 35,
+        "time": 3.82,
+        "latency": 31.55,
+        "status": 200
+      },
+      {
+        "id": 5,
+        "time": 3.82,
+        "latency": 32.97,
+        "status": 200
+      },
+      {
+        "id": 80,
+        "time": 3.82,
+        "latency": 32.09,
+        "status": 200
+      },
+      {
+        "id": 65,
+        "time": 3.82,
+        "latency": 32.81,
+        "status": 200
+      },
+      {
+        "id": 50,
+        "time": 3.82,
+        "latency": 33.8,
+        "status": 200
+      },
+      {
+        "id": 20,
+        "time": 3.82,
+        "latency": 35.3,
+        "status": 200
+      },
+      {
+        "id": 6,
+        "time": 3.95,
+        "latency": 23.08,
+        "status": 200
+      },
+      {
+        "id": 66,
+        "time": 3.96,
+        "latency": 24.69,
+        "status": 200
+      },
+      {
+        "id": 96,
+        "time": 3.96,
+        "latency": 27.86,
+        "status": 200
+      },
+      {
+        "id": 21,
+        "time": 3.96,
+        "latency": 31.45,
+        "status": 200
+      },
+      {
+        "id": 51,
+        "time": 3.96,
+        "latency": 32.66,
+        "status": 200
+      },
+      {
+        "id": 36,
+        "time": 3.96,
+        "latency": 33.99,
+        "status": 200
+      },
+      {
+        "id": 81,
+        "time": 3.96,
+        "latency": 35.7,
+        "status": 200
+      },
+      {
+        "id": 22,
+        "time": 4.09,
+        "latency": 28.59,
+        "status": 200
+      },
+      {
+        "id": 52,
+        "time": 4.09,
+        "latency": 28.57,
+        "status": 200
+      },
+      {
+        "id": 67,
+        "time": 4.09,
+        "latency": 29.19,
+        "status": 200
+      },
+      {
+        "id": 82,
+        "time": 4.09,
+        "latency": 31.2,
+        "status": 200
+      },
+      {
+        "id": 97,
+        "time": 4.09,
+        "latency": 31.61,
+        "status": 200
+      },
+      {
+        "id": 37,
+        "time": 4.09,
+        "latency": 33.37,
+        "status": 200
+      },
+      {
+        "id": 7,
+        "time": 4.09,
+        "latency": 34.79,
+        "status": 200
+      },
+      {
+        "id": 8,
+        "time": 4.22,
+        "latency": 24.74,
+        "status": 200
+      },
+      {
+        "id": 98,
+        "time": 4.22,
+        "latency": 24.18,
+        "status": 200
+      },
+      {
+        "id": 68,
+        "time": 4.22,
+        "latency": 26.36,
+        "status": 200
+      },
+      {
+        "id": 83,
+        "time": 4.22,
+        "latency": 30.37,
+        "status": 200
+      },
+      {
+        "id": 23,
+        "time": 4.22,
+        "latency": 31.89,
+        "status": 200
+      },
+      {
+        "id": 53,
+        "time": 4.22,
+        "latency": 32.35,
+        "status": 200
+      },
+      {
+        "id": 38,
+        "time": 4.22,
+        "latency": 33.24,
+        "status": 200
+      },
+      {
+        "id": 39,
+        "time": 4.36,
+        "latency": 33.83,
+        "status": 200
+      },
+      {
+        "id": 9,
+        "time": 4.36,
+        "latency": 35.02,
+        "status": 200
+      },
+      {
+        "id": 69,
+        "time": 4.36,
+        "latency": 34.07,
+        "status": 200
+      },
+      {
+        "id": 99,
+        "time": 4.36,
+        "latency": 34.15,
+        "status": 200
+      },
+      {
+        "id": 84,
+        "time": 4.36,
+        "latency": 35.36,
+        "status": 200
+      },
+      {
+        "id": 24,
+        "time": 4.36,
+        "latency": 37.63,
+        "status": 200
+      },
+      {
+        "id": 54,
+        "time": 4.36,
+        "latency": 39.43,
+        "status": 200
+      },
+      {
+        "id": 10,
+        "time": 4.49,
+        "latency": 22.95,
+        "status": 200
+      },
+      {
+        "id": 85,
+        "time": 4.49,
+        "latency": 24.51,
+        "status": 200
+      },
+      {
+        "id": 25,
+        "time": 4.49,
+        "latency": 27.53,
+        "status": 200
+      },
+      {
+        "id": 70,
+        "time": 4.49,
+        "latency": 29.29,
+        "status": 200
+      },
+      {
+        "id": 55,
+        "time": 4.49,
+        "latency": 30.22,
+        "status": 200
+      },
+      {
+        "id": 40,
+        "time": 4.49,
+        "latency": 33.41,
+        "status": 200
+      },
+      {
+        "id": 100,
+        "time": 4.49,
+        "latency": 44.21,
+        "status": 200
+      },
+      {
+        "id": 11,
+        "time": 4.62,
+        "latency": 21.85,
+        "status": 200
+      },
+      {
+        "id": 86,
+        "time": 4.62,
+        "latency": 24.68,
+        "status": 200
+      },
+      {
+        "id": 56,
+        "time": 4.62,
+        "latency": 26.37,
+        "status": 200
+      },
+      {
+        "id": 71,
+        "time": 4.62,
+        "latency": 27.51,
+        "status": 200
+      },
+      {
+        "id": 26,
+        "time": 4.62,
+        "latency": 29.97,
+        "status": 200
+      },
+      {
+        "id": 41,
+        "time": 4.62,
+        "latency": 30.64,
+        "status": 200
+      },
+      {
+        "id": 12,
+        "time": 4.76,
+        "latency": 25.36,
+        "status": 200
+      },
+      {
+        "id": 87,
+        "time": 4.76,
+        "latency": 25.86,
+        "status": 200
+      },
+      {
+        "id": 27,
+        "time": 4.76,
+        "latency": 28.53,
+        "status": 200
+      },
+      {
+        "id": 72,
+        "time": 4.76,
+        "latency": 28.31,
+        "status": 200
+      },
+      {
+        "id": 57,
+        "time": 4.76,
+        "latency": 31.54,
+        "status": 200
+      },
+      {
+        "id": 42,
+        "time": 4.76,
+        "latency": 32.8,
+        "status": 200
+      },
+      {
+        "id": 73,
+        "time": 4.89,
+        "latency": 29.22,
+        "status": 200
+      },
+      {
+        "id": 13,
+        "time": 4.89,
+        "latency": 31.5,
+        "status": 200
+      },
+      {
+        "id": 88,
+        "time": 4.89,
+        "latency": 30.15,
+        "status": 200
+      },
+      {
+        "id": 28,
+        "time": 4.89,
+        "latency": 33.18,
+        "status": 200
+      },
+      {
+        "id": 58,
+        "time": 4.89,
+        "latency": 33.66,
+        "status": 200
+      },
+      {
+        "id": 43,
+        "time": 4.89,
+        "latency": 34.89,
+        "status": 200
+      },
+      {
+        "id": 14,
+        "time": 5.02,
+        "latency": 24.48,
+        "status": 200
+      },
+      {
+        "id": 74,
+        "time": 5.02,
+        "latency": 25.4,
+        "status": 200
+      },
+      {
+        "id": 44,
+        "time": 5.02,
+        "latency": 30.93,
+        "status": 200
+      },
+      {
+        "id": 29,
+        "time": 5.02,
+        "latency": 32.1,
+        "status": 200
+      },
+      {
+        "id": 89,
+        "time": 5.02,
+        "latency": 34.63,
+        "status": 200
+      },
+      {
+        "id": 59,
+        "time": 5.02,
+        "latency": 35.39,
+        "status": 200
+      },
+      {
+        "id": 90,
+        "time": 5.16,
+        "latency": 27.1,
+        "status": 200
+      },
+      {
+        "id": 15,
+        "time": 5.16,
+        "latency": 32.13,
+        "status": 200
+      },
+      {
+        "id": 75,
+        "time": 5.16,
+        "latency": 30.46,
+        "status": 200
+      },
+      {
+        "id": 30,
+        "time": 5.16,
+        "latency": 33.24,
+        "status": 200
+      },
+      {
+        "id": 60,
+        "time": 5.16,
+        "latency": 35.51,
+        "status": 200
+      },
+      {
+        "id": 45,
+        "time": 5.16,
+        "latency": 36.75,
+        "status": 200
+      }
+    ],
+    "diagnosticos": [
+      "🟢 **SLA / Apdex Excelente (1.0):** Sistema atende a meta de 500.0ms com alta estabilidade.",
+      "🟢 **Diagnóstico Visual:** navegador invisível sem falhas de rede ou carregamento aparente."
+    ],
+    "vulnerabilidades": [
+      {
+        "severidade": "BAIXO",
+        "titulo": "Headers de seguranca ausentes",
+        "descricao": "Headers ausentes: Content-Security-Policy, X-Content-Type-Options, X-Frame-Options, Strict-Transport-Security"
+      }
+    ],
+    "screenshot": null,
+    "visual_diagnosis": {
+      "response_code": 200,
+      "console_errors": [],
+      "page_errors": [],
+      "warnings": []
+    },
+    "selenium": {
+      "url": "https://codespaces-react-main-l56h.onrender.com/",
+      "title": "Nexo RPPS · Dashboard",
+      "status": "ok"
+    }
+  }
+}

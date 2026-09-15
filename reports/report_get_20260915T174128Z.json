@@ -1,0 +1,657 @@
+{
+  "url": "https://probable-space-couscous-96j974wpvxgqfpp69-5000.app.github.dev/",
+  "method": "GET",
+  "created_at": "2026-09-15T17:41:28.230313+00:00",
+  "resultado": {
+    "total_requests": 100,
+    "sucessos": 100,
+    "erros": 100,
+    "tempo_total_execucao": 6.57,
+    "rps": 15.22,
+    "media_ms": 18.95,
+    "desvio_padrao_ms": 5.79,
+    "apdex_score": 1.0,
+    "target_sla_ms": 500.0,
+    "p50": 17.13,
+    "p75": 21.52,
+    "p90": 26.4,
+    "p95": 29.89,
+    "p99": 38.74,
+    "status_codes": {
+      "404": 100
+    },
+    "erros_detalhados": {
+      "timeout": 0,
+      "connection_refused": 0,
+      "dns_failure": 0,
+      "ssl_error": 0,
+      "http_4xx": 100,
+      "http_5xx": 0,
+      "outros": 0
+    },
+    "series_tempo": [
+      {
+        "id": 1,
+        "time": 4.68,
+        "latency": 16.35,
+        "status": 404
+      },
+      {
+        "id": 46,
+        "time": 4.68,
+        "latency": 26.36,
+        "status": 404
+      },
+      {
+        "id": 16,
+        "time": 4.68,
+        "latency": 28.32,
+        "status": 404
+      },
+      {
+        "id": 76,
+        "time": 4.68,
+        "latency": 32.63,
+        "status": 404
+      },
+      {
+        "id": 61,
+        "time": 4.68,
+        "latency": 37.03,
+        "status": 404
+      },
+      {
+        "id": 91,
+        "time": 4.68,
+        "latency": 38.71,
+        "status": 404
+      },
+      {
+        "id": 31,
+        "time": 4.68,
+        "latency": 41.71,
+        "status": 404
+      },
+      {
+        "id": 2,
+        "time": 4.81,
+        "latency": 14.71,
+        "status": 404
+      },
+      {
+        "id": 17,
+        "time": 4.81,
+        "latency": 14.97,
+        "status": 404
+      },
+      {
+        "id": 32,
+        "time": 4.81,
+        "latency": 15.4,
+        "status": 404
+      },
+      {
+        "id": 92,
+        "time": 4.82,
+        "latency": 14.64,
+        "status": 404
+      },
+      {
+        "id": 62,
+        "time": 4.82,
+        "latency": 15.92,
+        "status": 404
+      },
+      {
+        "id": 47,
+        "time": 4.81,
+        "latency": 19.09,
+        "status": 404
+      },
+      {
+        "id": 77,
+        "time": 4.82,
+        "latency": 20.66,
+        "status": 404
+      },
+      {
+        "id": 3,
+        "time": 4.95,
+        "latency": 12.29,
+        "status": 404
+      },
+      {
+        "id": 18,
+        "time": 4.95,
+        "latency": 13.91,
+        "status": 404
+      },
+      {
+        "id": 93,
+        "time": 4.95,
+        "latency": 13.42,
+        "status": 404
+      },
+      {
+        "id": 33,
+        "time": 4.95,
+        "latency": 14.38,
+        "status": 404
+      },
+      {
+        "id": 48,
+        "time": 4.95,
+        "latency": 15.02,
+        "status": 404
+      },
+      {
+        "id": 78,
+        "time": 4.95,
+        "latency": 17.33,
+        "status": 404
+      },
+      {
+        "id": 63,
+        "time": 4.95,
+        "latency": 18.99,
+        "status": 404
+      },
+      {
+        "id": 64,
+        "time": 5.08,
+        "latency": 11.31,
+        "status": 404
+      },
+      {
+        "id": 4,
+        "time": 5.08,
+        "latency": 14.19,
+        "status": 404
+      },
+      {
+        "id": 49,
+        "time": 5.08,
+        "latency": 13.86,
+        "status": 404
+      },
+      {
+        "id": 19,
+        "time": 5.08,
+        "latency": 15.44,
+        "status": 404
+      },
+      {
+        "id": 34,
+        "time": 5.08,
+        "latency": 15.45,
+        "status": 404
+      },
+      {
+        "id": 94,
+        "time": 5.08,
+        "latency": 18.61,
+        "status": 404
+      },
+      {
+        "id": 79,
+        "time": 5.08,
+        "latency": 19.55,
+        "status": 404
+      },
+      {
+        "id": 5,
+        "time": 5.21,
+        "latency": 19.05,
+        "status": 404
+      },
+      {
+        "id": 20,
+        "time": 5.21,
+        "latency": 20.2,
+        "status": 404
+      },
+      {
+        "id": 80,
+        "time": 5.22,
+        "latency": 20.79,
+        "status": 404
+      },
+      {
+        "id": 65,
+        "time": 5.22,
+        "latency": 21.76,
+        "status": 404
+      },
+      {
+        "id": 35,
+        "time": 5.21,
+        "latency": 23.24,
+        "status": 404
+      },
+      {
+        "id": 95,
+        "time": 5.22,
+        "latency": 22.62,
+        "status": 404
+      },
+      {
+        "id": 50,
+        "time": 5.21,
+        "latency": 23.99,
+        "status": 404
+      },
+      {
+        "id": 66,
+        "time": 5.35,
+        "latency": 12.32,
+        "status": 404
+      },
+      {
+        "id": 96,
+        "time": 5.35,
+        "latency": 15.08,
+        "status": 404
+      },
+      {
+        "id": 6,
+        "time": 5.35,
+        "latency": 17.15,
+        "status": 404
+      },
+      {
+        "id": 21,
+        "time": 5.35,
+        "latency": 18.19,
+        "status": 404
+      },
+      {
+        "id": 36,
+        "time": 5.35,
+        "latency": 23.16,
+        "status": 404
+      },
+      {
+        "id": 81,
+        "time": 5.35,
+        "latency": 23.06,
+        "status": 404
+      },
+      {
+        "id": 51,
+        "time": 5.35,
+        "latency": 24.8,
+        "status": 404
+      },
+      {
+        "id": 7,
+        "time": 5.48,
+        "latency": 14.75,
+        "status": 404
+      },
+      {
+        "id": 37,
+        "time": 5.48,
+        "latency": 14.94,
+        "status": 404
+      },
+      {
+        "id": 97,
+        "time": 5.48,
+        "latency": 14.33,
+        "status": 404
+      },
+      {
+        "id": 67,
+        "time": 5.48,
+        "latency": 15.94,
+        "status": 404
+      },
+      {
+        "id": 22,
+        "time": 5.48,
+        "latency": 17.12,
+        "status": 404
+      },
+      {
+        "id": 52,
+        "time": 5.48,
+        "latency": 17.42,
+        "status": 404
+      },
+      {
+        "id": 82,
+        "time": 5.48,
+        "latency": 22.03,
+        "status": 404
+      },
+      {
+        "id": 8,
+        "time": 5.61,
+        "latency": 13.91,
+        "status": 404
+      },
+      {
+        "id": 23,
+        "time": 5.61,
+        "latency": 14.0,
+        "status": 404
+      },
+      {
+        "id": 53,
+        "time": 5.61,
+        "latency": 16.81,
+        "status": 404
+      },
+      {
+        "id": 83,
+        "time": 5.62,
+        "latency": 17.14,
+        "status": 404
+      },
+      {
+        "id": 38,
+        "time": 5.61,
+        "latency": 20.06,
+        "status": 404
+      },
+      {
+        "id": 98,
+        "time": 5.62,
+        "latency": 19.78,
+        "status": 404
+      },
+      {
+        "id": 68,
+        "time": 5.61,
+        "latency": 20.67,
+        "status": 404
+      },
+      {
+        "id": 84,
+        "time": 5.75,
+        "latency": 12.96,
+        "status": 404
+      },
+      {
+        "id": 9,
+        "time": 5.75,
+        "latency": 15.11,
+        "status": 404
+      },
+      {
+        "id": 39,
+        "time": 5.75,
+        "latency": 14.93,
+        "status": 404
+      },
+      {
+        "id": 54,
+        "time": 5.75,
+        "latency": 14.57,
+        "status": 404
+      },
+      {
+        "id": 69,
+        "time": 5.75,
+        "latency": 14.71,
+        "status": 404
+      },
+      {
+        "id": 99,
+        "time": 5.75,
+        "latency": 14.66,
+        "status": 404
+      },
+      {
+        "id": 24,
+        "time": 5.75,
+        "latency": 16.5,
+        "status": 404
+      },
+      {
+        "id": 10,
+        "time": 5.88,
+        "latency": 14.06,
+        "status": 404
+      },
+      {
+        "id": 55,
+        "time": 5.88,
+        "latency": 13.84,
+        "status": 404
+      },
+      {
+        "id": 25,
+        "time": 5.88,
+        "latency": 14.91,
+        "status": 404
+      },
+      {
+        "id": 85,
+        "time": 5.88,
+        "latency": 14.0,
+        "status": 404
+      },
+      {
+        "id": 40,
+        "time": 5.88,
+        "latency": 15.79,
+        "status": 404
+      },
+      {
+        "id": 70,
+        "time": 5.88,
+        "latency": 15.58,
+        "status": 404
+      },
+      {
+        "id": 100,
+        "time": 5.88,
+        "latency": 15.12,
+        "status": 404
+      },
+      {
+        "id": 26,
+        "time": 6.01,
+        "latency": 13.6,
+        "status": 404
+      },
+      {
+        "id": 11,
+        "time": 6.01,
+        "latency": 16.28,
+        "status": 404
+      },
+      {
+        "id": 71,
+        "time": 6.02,
+        "latency": 15.46,
+        "status": 404
+      },
+      {
+        "id": 56,
+        "time": 6.01,
+        "latency": 15.97,
+        "status": 404
+      },
+      {
+        "id": 41,
+        "time": 6.01,
+        "latency": 16.93,
+        "status": 404
+      },
+      {
+        "id": 86,
+        "time": 6.02,
+        "latency": 17.75,
+        "status": 404
+      },
+      {
+        "id": 72,
+        "time": 6.15,
+        "latency": 20.61,
+        "status": 404
+      },
+      {
+        "id": 12,
+        "time": 6.15,
+        "latency": 25.35,
+        "status": 404
+      },
+      {
+        "id": 42,
+        "time": 6.15,
+        "latency": 28.31,
+        "status": 404
+      },
+      {
+        "id": 87,
+        "time": 6.16,
+        "latency": 22.72,
+        "status": 404
+      },
+      {
+        "id": 27,
+        "time": 6.15,
+        "latency": 30.59,
+        "status": 404
+      },
+      {
+        "id": 57,
+        "time": 6.15,
+        "latency": 29.85,
+        "status": 404
+      },
+      {
+        "id": 13,
+        "time": 6.28,
+        "latency": 13.85,
+        "status": 404
+      },
+      {
+        "id": 28,
+        "time": 6.28,
+        "latency": 14.86,
+        "status": 404
+      },
+      {
+        "id": 58,
+        "time": 6.28,
+        "latency": 13.99,
+        "status": 404
+      },
+      {
+        "id": 73,
+        "time": 6.28,
+        "latency": 14.04,
+        "status": 404
+      },
+      {
+        "id": 88,
+        "time": 6.28,
+        "latency": 14.23,
+        "status": 404
+      },
+      {
+        "id": 43,
+        "time": 6.28,
+        "latency": 18.84,
+        "status": 404
+      },
+      {
+        "id": 74,
+        "time": 6.42,
+        "latency": 19.16,
+        "status": 404
+      },
+      {
+        "id": 44,
+        "time": 6.41,
+        "latency": 24.83,
+        "status": 404
+      },
+      {
+        "id": 59,
+        "time": 6.42,
+        "latency": 22.17,
+        "status": 404
+      },
+      {
+        "id": 89,
+        "time": 6.42,
+        "latency": 21.51,
+        "status": 404
+      },
+      {
+        "id": 14,
+        "time": 6.41,
+        "latency": 26.77,
+        "status": 404
+      },
+      {
+        "id": 29,
+        "time": 6.41,
+        "latency": 29.81,
+        "status": 404
+      },
+      {
+        "id": 15,
+        "time": 6.55,
+        "latency": 21.74,
+        "status": 404
+      },
+      {
+        "id": 30,
+        "time": 6.55,
+        "latency": 21.13,
+        "status": 404
+      },
+      {
+        "id": 45,
+        "time": 6.55,
+        "latency": 20.76,
+        "status": 404
+      },
+      {
+        "id": 75,
+        "time": 6.55,
+        "latency": 20.12,
+        "status": 404
+      },
+      {
+        "id": 90,
+        "time": 6.55,
+        "latency": 20.69,
+        "status": 404
+      },
+      {
+        "id": 60,
+        "time": 6.55,
+        "latency": 21.55,
+        "status": 404
+      }
+    ],
+    "diagnosticos": [
+      "🟢 **SLA / Apdex Excelente (1.0):** Sistema atende a meta de 500.0ms com alta estabilidade.",
+      "🟠 **Diagnóstico Visual:** resposta HTTP 404 observada pelo navegador invisível.",
+      "🔴 **Diagnóstico Visual:** erros de página ou console detectados pelo navegador headless.",
+      "🟢 **Diagnóstico Visual:** navegador invisível sem falhas de rede ou carregamento aparente."
+    ],
+    "vulnerabilidades": [
+      {
+        "severidade": "BAIXO",
+        "titulo": "Headers de seguranca ausentes",
+        "descricao": "Headers ausentes: Content-Security-Policy, X-Frame-Options"
+      }
+    ],
+    "screenshot": "iVBORw0KGgoAAAANSUhEUgAABQAAAALQCAIAAABAH0oBAAAQAElEQVR4nOzXAQ0AIAzAsIfg3/LxwVoXvbs7AAAA8LszAAAAECDAAAAAJAgwAAAACQIMAABAggADAACQIMAAAAAkCDAAAAAJAgwAAECCAAMAAJAgwAAAACQIMAAAAAkCDAAAQIIAAwAAkCDAAAAAJAgwAAAACQIMAABAggADAACQIMAAAAAkCDAAAAAJAgwAAECCAAMAAJAgwAAAACQIMAAAAAkCDAAAQIIAAwAAkCDAAAAAJAgwAAAACQIMAABAggADAACQIMAAAAAkCDAAAAAJAgwAAECCAAMAAJAgwAAAACQIMAAAAAkCDAAAQIIAAwAAkCDAAAAAJAgwAAAACQIMAABAggADAACQIMAAAAAkCDAAAAAJAgwAAECCAAMAAJAgwAAAACQIMAAAAAkCDAAAQIIAAwAAkCDAAAAAJAgwAAAACQIMAABAggADAACQIMAAAAAkCDAAAAAJAgwAAECCAAMAAJAgwAAAACQIMAAAAAkCDAAAQIIAAwAAkCDAAAAAJAgwAAAACQIMAABAggADAACQIMAAAAAkCDAAAAAJAgwAAECCAAMAAJAgwAAAACQIMAAAAAkCDAAAQIIAAwAAkCDAAAAAJAgwAAAACQIMAABAggADAACQIMAAAAAkCDAAAAAJAgwAAECCAAMAAJAgwAAAACQIMAAAAAkCDAAAQIIAAwAAkCDAAAAAJAgwAAAACQIMAABAggADAACQIMAAAAAkCDAAAAAJAgwAAECCAAMAAJAgwAAAACQIMAAAAAkCDAAAQIIAAwAAkCDAAAAAJAgwAAAACQIMAABAggADAACQIMAAAAAkCDAAAAAJAgwAAECCAAMAAJAgwAAAACQIMAAAAAkCDAAAQIIAAwAAkCDAAAAAJAgwAAAACQIMAABAggADAACQIMAAAAAkCDAAAAAJAgwAAECCAAMAAJAgwAAAACQIMAAAAAkCDAAAQIIAAwAAkCDAAAAAJAgwAAAACQIMAABAggADAACQIMAAAAAkCDAAAAAJAgwAAECCAAMAAJAgwAAAACQIMAAAAAkCDAAAQIIAAwAAkCDAAAAAJAgwAAAACQIMAABAggADAACQIMAAAAAkCDAAAAAJAgwAAECCAAMAAJAgwAAAACQIMAAAAAkCDAAAQIIAAwAAkCDAAAAAJAgwAAAACQIMAABAggADAACQIMAAAAAkCDAAAAAJAgwAAECCAAMAAJAgwAAAACQIMAAAAAkCDAAAQIIAAwAAkCDAAAAAJAgwAAAACQIMAABAggADAACQIMAAAAAkCDAAAAAJAgwAAECCAAMAAJAgwAAAACQIMAAAAAkCDAAAQIIAAwAAkCDAAAAAJAgwAAAACQIMAABAggADAACQIMAAAAAkCDAAAAAJAgwAAECCAAMAAJAgwAAAACQIMAAAAAkCDAAAQIIAAwAAkCDAAAAAJAgwAAAACQIMAABAggADAACQIMAAAAAkCDAAAAAJAgwAAECCAAMAAJAgwAAAACQIMAAAAAkCDAAAQIIAAwAAkCDAAAAAJAgwAAAACQIMAABAggADAACQIMAAAAAkCDAAAAAJAgwAAECCAAMAAJAgwAAAACQIMAAAAAkCDAAAQIIAAwAAkCDAAAAAJAgwAAAACQIMAABAggADAACQIMAAAAAkCDAAAAAJAgwAAECCAAMAAJAgwAAAACQIMAAAAAkCDAAAQIIAAwAAkCDAAAAAJAgwAAAACQIMAABAggADAACQIMAAAAAkCDAAAAAJAgwAAECCAAMAAJAgwAAAACQIMAAAAAkCDAAAQIIAAwAAkCDAAAAAJAgwAAAACQIMAABAggADAACQIMAAAAAkCDAAAAAJAgwAAECCAAMAAJAgwAAAACQIMAAAAAkCDAAAQIIAAwAAkCDAAAAAJAgwAAAACQIMAABAggADAACQIMAAAAAkCDAAAAAJAgwAAECCAAMAAJAgwAAAACQIMAAAAAkCDAAAQIIAAwAAkCDAAAAAJAgwAAAACQIMAABAggADAACQIMAAAAAkCDAAAAAJAgwAAECCAAMAAJAgwAAAACQIMAAAAAkCDAAAQIIAAwAAkCDAAAAAJAgwAAAACQIMAABAggADAACQIMAAAAAkCDAAAAAJAgwAAECCAAMAAJAgwAAAACQIMAAAAAkCDAAAQIIAAwAAkCDAAAAAJAgwAAAACQIMAABAggADAACQIMAAAAAkCDAAAAAJAgwAAECCAAMAAJAgwAAAACQIMAAAAAkCDAAAQIIAAwAAkCDAAAAAJAgwAAAACQIMAABAggADAACQIMAAAAAkCDAAAAAJAgwAAECCAAMAAJAgwAAAACQIMAAAAAkCDAAAQIIAAwAAkCDAAAAAJAgwAAAACQIMAABAggADAACQIMAAAAAkCDAAAAAJAgwAAECCAAMAAJAgwAAAACQIMAAAAAkCDAAAQIIAAwAAkCDAAAAAJAgwAAAACQIMAABAggADAACQIMAAAAAkCDAAAAAJAgwAAECCAAMAAJAgwAAAACQIMAAAAAkCDAAAQIIAAwAAkCDAAAAAJAgwAAAACQIMAABAggADAACQIMAAAAAkCDAAAAAJAgwAAECCAAMAAJAgwAAAACQIMAAAAAkCDAAAQIIAAwAAkCDAAAAAJAgwAAAACQIMAABAggADAACQIMAAAAAkCDAAAAAJAgwAAECCAAMAAJAgwAAAACQIMAAAAAkCDAAAQIIAAwAAkCDAAAAAJAgwAAAACQIMAABAggADAACQIMAAAAAkCDAAAAAJAgwAAECCAAMAAJAgwAAAACQIMAAAAAkCDAAAQIIAAwAAkCDAAAAAJAgwAAAACQIMAABAggADAACQIMAAAAAkCDAAAAAJAgwAAECCAAMAAJAgwAAAACQIMAAAAAkCDAAAQIIAAwAAkCDAAAAAJAgwAAAACQIMAABAggADAACQIMAAAAAkCDAAAAAJAgwAAECCAAMAAJAgwAAAACQIMAAAAAkCDAAAQIIAAwAAkCDAAAAAJAgwAAAACQIMAABAggADAACQIMAAAAAkCDAAAAAJAgwAAECCAAMAAJAgwAAAACQIMAAAAAkCDAAAQIIAAwAAkCDAAAAAJAgwAAAACQIMAABAggADAACQIMAAAAAkCDAAAAAJAgwAAECCAAMAAJAgwAAAACQIMAAAAAkCDAAAQIIAAwAAkCDAAAAAJAgwAAAACQIMAABAggADAACQIMAAAAAkCDAAAAAJAgwAAECCAAMAAJAgwAAAACQIMAAAAAkCDAAAQIIAAwAAkCDAAAAAJAgwAAAACQIMAABAggADAACQIMAAAAAkCDAAAAAJAgwAAECCAAMAAJAgwAAAACQIMAAAAAkCDAAAQIIAAwAAkCDAAAAAJAgwAAAACQIMAABAggADAACQIMAAAAAkCDAAAAAJAgwAAECCAAMAAJAgwAAAACQIMAAAAAkCDAAAQIIAAwAAkCDAAAAAJAgwAAAACQIMAABAggADAACQIMAAAAAkCDAAAAAJAgwAAECCAAMAAJAgwAAAACQIMAAAAAkCDAAAQIIAAwAAkCDAAAAAJAgwAAAACQIMAABAggADAACQIMAAAAAkCDAAAAAJAgwAAECCAAMAAJAgwAAAACQIMAAAAAkCDAAAQIIAAwAAkCDAAAAAJAgwAAAACQIMAABAggADAACQIMAAAAAkCDAAAAAJAgwAAECCAAMAAJAgwAAAACQIMAAAAAkCDAAAQIIAAwAAkCDAAAAAJAgwAAAACQIMAABAggADAACQIMAAAAAkCDAAAAAJAgwAAECCAAMAAJAgwAAAACQIMAAAAAkCDAAAQIIAAwAAkCDAAAAAJAgwAAAACQIMAABAggADAACQIMAAAAAkCDAAAAAJAgwAAECCAAMAAJAgwAAAACQIMMAAAFAgwAAAACQIMAAAAAkCDAAAQIIAAwAAkCDAAAAAJAgwAAAACQIMAABAggADAACQIMAAAAAkCDAAAAAJAgwAAECCAAMAAJAgwAAAACQIMAAAAAkCDAAAQIIAAwAAkCDAAAAAJAgwAAAACQIMAABAggADAACQIMAAAAAkCDAAAAAJAgwAAECCAAMAAJAgwAAAACQIMAAAAAkCDAAAQIIAAwAAkCDAAAAAJAgwAAAACQIMAABAggADAACQIMAAAAAkCDAAAAAJAgwAAECCAAMAAJAgwAAAACQIMAAAAAkCDAAAQIIAAwAAkCDAAAAAJAgwAAAACQIMAABAggADAACQIMAAAAAkCDAAAAAJAgwAAECCAAMAAJAgwAAAACQIMAAAAAkCDAAAQIIAAwAAkCDAAAAAJAgwAAAACQIMAABAggADAACQIMAAAAAkCDAAAAAJAgwAAECCAAMAAJAgwAAAACQIMAAAAAkCDAAAQIIAAwAAkCDAAAAAJAgwAAAACQIMAABAggADAACQIMAAAAAkCDAAAAAJAgwAAECCAAMAAJAgwAAAACQIMAAAAAkCDAAAQIIAAwAAkCDAAAAAJAgwAAAACQIMAABAggADAACQIMAAAAAkCDAAAAAJAgwAAECCAAMAAJAgwAAAACQIMAAAAAkCDAAAQIIAAwAAkCDAAAAAJAgwAAAACQIMAABAggADAACQIMAAAAAkCDAAAAAJAgwAAECCAAMAAJAgwAAAACQIMAAAAAkCDAAAQIIAAwAAkCDAAAAAJAgwAAAACQIMAABAggADAACQIMAAAAAkCDAAAAAJAgwAAECCAAMAAJAgwAAAACQIMAAAAAkCDAAAQIIAAwAAkCDAAAAAJAgwAAAACQIMAABAggADAACQIMAAAAAkCDAAAAAJAgwAAECCAAMAAJAgwAAAACQIMAAAAAkCDAAAQIIAAwAAkCDAAAAAJAgwAAAACQIMAABAggADAACQIMAAAAAkCDAAAAAJAgwAAECCAAMAAJAgwAAAACQIMAAAAAkCDAAAQIIAAwAAkCDAAAAAJAgwAAAACQIMAABAggADAACQIMAAAAAkCDAAAAAJAgwAAECCAAMAAJAgwAAAACQIMAAAAAkCDAAAQIIAAwAAkCDAAAAAJAgwAAAACQIMAABAggADAACQIMAAAAAkCDAAAAAJAgwAAECCAAMAAJAgwAAAACQIMAAAAAkCDAAAQIIAAwAAkCDAAAAAJAgwAAAACQIMAABAggADAACQIMAAAAAkCDAAAAAJAgwAAECCAAMAAJAgwAAAACQIMAAAAAkCDAAAQIIAAwAAkCDAAAAAJAgwAAAACQIMAABAggADAACQIMAAAAAkCDAAAAAJAgwAAECCAAMAAJAgwAAAACQIMAAAAAkCDAAAQIIAAwAAkCDAAAAAJAgwAAAACQIMAABAggADAACQIMAAAAAkCDAAAAAJAgwAAECCAAMAAJAgwAAAACQIMAAAAAkCDAAAQIIAAwAAkCDAAAAAJAgwAAAACQIMAABAggADAACQIMAAAAAkCDAAAAAJAgwAAECCAAMAAJAgwAAAinmmqQAAAEdJREFUACQIMAAAAAkCDAAAQIIAAwAAkCDAAAAAJAgwAAAACQIMAABAggADAACQIMAAAAAkCDAAAAAJAgwAAECCAAMAAJDwAAAA///FxCTCAAAABklEQVQDAOhHCKDOc7AcAAAAAElFTkSuQmCC",
+    "visual_diagnosis": {
+      "response_code": 404,
+      "console_errors": [
+        "Failed to load resource: the server responded with a status of 404 ()"
+      ],
+      "page_errors": [],
+      "warnings": []
+    }
+  }
+}

@@ -10,7 +10,15 @@ from playwright.async_api import async_playwright
 async def capturar_screenshot_playwright(url: str, caminho_saida: Optional[str] = None) -> bytes:
     """Captura screenshot de alta velocidade usando Playwright (Assíncrono)."""
     async with async_playwright() as p:
-        browser = await p.chromium.launch(headless=True)
+        browser = await p.chromium.launch(
+            headless=True,
+            args=[
+                "--no-sandbox",
+                "--disable-setuid-sandbox",
+                "--disable-dev-shm-usage",
+                "--disable-gpu",
+            ],
+        )
         page = await browser.new_page()
         
         # Ajusta a viewport para resoluções padrão de desktop

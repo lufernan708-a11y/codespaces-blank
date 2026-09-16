@@ -241,6 +241,8 @@ HTML_TEMPLATE = r"""
             --purple: #a855f7;
         }
 
+        .hidden { display: none !important; }
+
         * { box-sizing: border-box; margin: 0; padding: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
         body { background-color: var(--bg); color: var(--text-main); padding: 1.5rem; display: flex; justify-content: center; }
         .app-container { width: 100%; max-width: 1400px; display: grid; grid-template-columns: 420px 1fr; gap: 1.5rem; }

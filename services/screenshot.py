@@ -13,12 +13,21 @@ async def _carregar_pagina(url: str) -> dict[str, Any]:
     avisos: list[str] = []
 
     async with async_playwright() as playwright:
-        browser = await playwright.chromium.launch(headless=True)
+        browser = await playwright.chromium.launch(
+            headless=True,
+            args=[
+                "--no-sandbox",
+                "--disable-setuid-sandbox",
+                "--disable-dev-shm-usage",
+                "--disable-gpu",
+            ],
+        )
         page = await browser.new_page()
         page.on("console", lambda message: erros_console.append(message.text) if message.type == "error" else None)
         page.on("pageerror", lambda error: erros_pagina.append(str(error)))
         try:
-            response = await page.goto(url, wait_until="networkidle", timeout=30000)
+            response = await page.goto(url, wait_until="domcontentloaded", timeout=30000)
+            await page.wait_for_timeout(1000)
             return {
                 "page": page,
                 "browser": browser,
@@ -46,10 +55,19 @@ async def capturar_screenshot(url: str, motor: str = "playwright") -> str | None
         from playwright.async_api import async_playwright
 
         async with async_playwright() as playwright:
-            browser = await playwright.chromium.launch(headless=True)
+            browser = await playwright.chromium.launch(
+                headless=True,
+                args=[
+                    "--no-sandbox",
+                    "--disable-setuid-sandbox",
+                    "--disable-dev-shm-usage",
+                    "--disable-gpu",
+                ],
+            )
             try:
                 page = await browser.new_page()
-                await page.goto(url, wait_until="networkidle", timeout=30000)
+                await page.goto(url, wait_until="domcontentloaded", timeout=30000)
+                await page.wait_for_timeout(1000)
                 screenshot = await page.screenshot(type="png", full_page=True)
             finally:
                 await browser.close()
